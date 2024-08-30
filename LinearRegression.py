@@ -5,8 +5,8 @@ import streamlit as st
 from PIL import Image
 
 # Display an image at the top of the app
-math=Image.open(r"C:\Users\RAGHAVENDRA KUMAR\Downloads\Math.png")
-Inno = Image.open(r"C:\Users\RAGHAVENDRA KUMAR\OneDrive\Pictures\Screenshots\Inno.png")
+math=Image.open("Math.png")
+Inno = Image.open("Inno.png")
 st.image(Inno,use_column_width=True)
 st.image(math)
 # Add custom CSS for dark overlay background
